@@ -11,3 +11,5 @@ const BlackButton = ({title, onClickMethod}) => {
 }
 
 export default BlackButton
+
+
