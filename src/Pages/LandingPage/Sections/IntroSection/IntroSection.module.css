@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 100vh;
+}
+.ImageSection {
+  display: 100%;
+  background-color: var(--dark-grey);
+  height: 60vh;
+}
+.ImageSection>img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.IntroStatement {
+  width: 100%;
+  padding: 5rem 5rem;
+  display: flex;
+  flex-direction: row;
+}
+.openingStatement {
+  width: 100%;
+  color: black;
+}
+.openingStatement > h1 {
+  line-height: 50px;
+  text-align: start;
+  font-size: 45px;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.moreDetails{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.moreDetails>span{
+    text-align: start;
+}
+.navButtons{
+    flex-direction: row;
+    gap: 1.5rem;
+    display: flex;
+}

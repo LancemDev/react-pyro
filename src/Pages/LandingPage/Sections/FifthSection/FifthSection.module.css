@@ -1,0 +1,68 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.testimonial>h4{
+    width: 40%;
+}
+.ImageSection{
+    background-color: var(--dark-grey);
+    width: 300px;
+    border-radius: 5px;
+    height: 300px;
+}
+.images{
+    width: 100%;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.userRow{
+    width: 100%;
+    padding-top: 20px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userProfile{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    gap: 0.5rem;
+    padding-right: 20px;
+    flex-direction: row;
+}
+.avator{
+    border-radius: 50%;
+    background-color: var(--dark-grey);
+    width: 60px;
+    height: 60px;
+}
+.divider{
+    background-color: black;
+    border-radius: 5px;
+    width: 3px;
+    height: 40px;
+}
+.companyLogo{
+    display: flex;
+    gap: 1rem;
+    padding-left: 20px;
+}

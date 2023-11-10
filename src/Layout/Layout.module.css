@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x: none;
+  position: relative;
+}
+.Navbar {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}
+.outlet {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x: none;
+  position: relative;
+}

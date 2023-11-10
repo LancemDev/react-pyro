@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sections{
+    padding-top: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.statements{
+    text-align: start;
+}
+.statements>h1{
+    font-family: 'Poppins';
+}
+.navBtns{
+    gap: 2rem;
+    display: flex;
+}

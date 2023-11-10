@@ -1,0 +1,93 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.sections {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  padding: 60px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.logo {
+  align-self: flex-start;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+.sectionOne {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.weblinks {
+  text-align: start;
+  display: flex;
+  cursor: pointer;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.subscriptionLetter {
+  display: flex;
+  align-self: flex-start;
+  text-align: start;
+  flex-direction: column;
+  gap: 1rem;
+}
+.InputClass {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.InputClass > input:nth-child(1) {
+  border: 2px solid var(--dark-grey);
+  height: 50px;
+  padding-left: 5px;
+  width: 250px;
+  border-radius: 5px;
+}
+.copyright {
+  border-top: 2px solid black;
+  width: 100%;
+  padding-top: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+.copyrightsectionsOne {
+  display: flex;
+  gap: 3rem;
+  flex-direction: row;
+}
+.socialMediaLinks {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+}
+.copyrightlinks > span {
+  text-decoration: underline;
+}
+.copyrightlinks {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.circleHolder {
+  cursor: pointer;
+  background-color: var(--dark-grey);
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+}

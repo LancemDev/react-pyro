@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    background-color: transparent;
+    border: 1px solid var(--grey-text);
+    height: 50px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+}
+.container>h3{
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 30px;
+}

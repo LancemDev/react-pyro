@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    background-color: var(--background);
+    border-bottom: 1px solid var(--dark-grey);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sections{
+    width: 100%;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.linksSections{
+    display: flex;
+    gap: 2rem;
+}
+.linksSections>h4{
+    cursor: pointer;
+}
+.linksSections>div{
+    cursor: pointer;
+}
+.resourcesCenter{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.logoSection{
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    margin-right: 10rem;
+}
+.logoSection>h1{
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
